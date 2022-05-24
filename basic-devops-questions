@@ -1,8 +1,24 @@
 DevOps General Questions: 
 
 1. What do you know about DevOps?
+      DevOps (a portmanteau of “development” and “operations”) is the combination of practices and tools designed to increase an organization’s ability to deliver applications and services faster than traditional software development processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
+      In simple terms, DevOps is about removing the barriers between traditionally siloed teams, development and operations. Under a DevOps model, development and operations teams work together across the entire software application life cycle, from development and test through deployment to operations.
+      
 2. How is DevOps different from agile methodology?
+      Agile addresses gaps in Customer and Developer communications. 
+      DevOps addresses gaps in Developer and IT Operations communications
+      https://www.guru99.com/agile-vs-devops.html
+      In Agile, Leverage shift-left. In Devops, Leverage both shifts left and right.
+      https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right/
+      
 3. How will you approach a project that needs to implement DevOps?
+      Stage 1
+      An assessment of the existing process and implementation for about two to three weeks to identify areas of improvement so that the team can create a road map for the implementation.
+      Stage 2
+      Create a proof of concept (PoC). Once it is accepted and approved, the team can start on the actual implementation and roll-out of the project plan.
+      Stage 3
+      The project is now ready for implementing DevOps by using version control/integration/testing/deployment/delivery and monitoring followed step by step.
+    
 4. What is the role of configuration management in DevOps?
 5. How does continuous monitoring help you maintain the entire architecture of the system?
 6. Name three important DevOps KPIs.
