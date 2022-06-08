@@ -1,0 +1,18 @@
+terraform get		-	The terraform get command will download modules referenced in the configuration, but will not perform the other required initialization tasks.  
+
+Terraform D 		-	Terraform D is a plugin used on most in-service systems and Windows. Terraform init by default searches next directories for plugins.(~HOME/terraform.d/plugins_direct 
+
+NULL Resource: 
+https://pet2cattle.com/2021/03/terraform-local-exec-update
+
+It act as normal resources but do nothing and used in conjugation with Provisioners. 
+It support Triggers to rerun the prrovisioner if any change in Trigger. 
+
+
+What are the version controls supported by Terraform besides GitHub?	-	Git hub, Git lab, Bit bucket, Azure devops.
+
+What is a Private Module Registry	-	A Private Module Registry is a feature from Terraform Cloud that allows you to share Terraform modules across the organization. You can enforce rules or “sentinel policies” on the registry that specify how members of your organization can use the modules.
+
+Is Terraform usable for an on-prem infrastructure?	-	Yes, Terraform can be used for on-prem infrastructure. As there are a lot of obtainable providers, we can decide which suits us the best. All that we need is an API.
+
+Does Terraform support multi-provider deployments?	-	Yes
