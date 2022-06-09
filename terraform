@@ -16,3 +16,15 @@ What is a Private Module Registry	-	A Private Module Registry is a feature from 
 Is Terraform usable for an on-prem infrastructure?	-	Yes, Terraform can be used for on-prem infrastructure. As there are a lot of obtainable providers, we can decide which suits us the best. All that we need is an API.
 
 Does Terraform support multi-provider deployments?	-	Yes
+
+How is duplicate resource error ignored during terraform apply?		-	It can occur due to state file not available or not updatd or using --refresh=false. It can be corrected by using 1. delete the infra and recreate from terraform. 2. Remove from terraform file. 3. Use the import function. 
+
+What are some of the built-in provisioners available in Terraform?	-	File, local-exec, remote-exec, chef, puppet. 
+
+Can you provide a few examples where we can use for Sentinel policies?	-	Restrict roles the cloud provider can assume, Forbid only certain resources, providers, or data sources, Enforce mandatory tagging on resources, cost monitoring based on cost estimation report. 
+
+Cost Estimation	-	Estimate the cost. 
+
+What are the various levels of Sentinel enforcement?	Advisory (just logging), Soft (admin can override) , Hard Mandatory (NObody can override)
+
+How to Store Sensitive Data in Terraform?   - In local, encryption to be handled. For Terraform cloud, it is stored as encrypted at rest and TLS during intransit. 
