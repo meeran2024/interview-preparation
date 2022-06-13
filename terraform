@@ -28,3 +28,7 @@ Cost Estimation	-	Estimate the cost.
 What are the various levels of Sentinel enforcement?	Advisory (just logging), Soft (admin can override) , Hard Mandatory (NObody can override)
 
 How to Store Sensitive Data in Terraform?   - In local, encryption to be handled. For Terraform cloud, it is stored as encrypted at rest and TLS during intransit. 
+
+https://www.simplilearn.com/terraform-interview-questions-and-answers-article
+
+https://www.interviewbit.com/terraform-interview-questions/
