@@ -1,0 +1,16 @@
+1. What Is The AWS IAM Service?
+2. What is IAM Users & IAM Roles?
+3. Different policy types ? 
+4. IAM Roles for ECS Instance ?
+5. When Would You Use An IAM User, IAM Role Or IAM Group?
+6. How Many Policies Would You Attach To An IAM Role?
+7. UAG/PAM/WAM/Ping Identity/ AD / SAML Authentication / Pass Roles/ 
+
+
+FIM works through this process: 
+
+A user’s login credentials are stored on their own IdP.
+The user attempts to log in to a remote application that uses federated identity.
+The remote application then requests federated authentication from the user’s authentication server.
+Finally, the user’s authentication server authorizes the user and confirms their identity to the application, which grants them access.
+
