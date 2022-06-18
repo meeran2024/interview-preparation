@@ -20,6 +20,26 @@ https://www.youtube.com/watch?v=_1GSVoUVPXo:
 6. What is SNS?
 7. What is Git Rebase? 
 8. What is Git revert? 
-9. 
+9. Difference of Git pull and Git Fetch?
+10. How to get public IP of docker container? 
+        Use docker inspect container-id 
 
+-------------------------------------------------------------------------------------------------------------
+
+https://www.youtube.com/watch?v=1yQZKOTNVA8
+
+
+1. What is docker cache?
+
+        generally during docker build , it caches as layers. so when run for next time, it uses cache to rerun from failed layer. 
+
+        --no-cache 
+
+2. What is the use of sonarqube? 
+
+        It contains rule to ensure code quality. 
+        Genertes the report. 
+
+3. Pipeline jobs? 
+    
 
