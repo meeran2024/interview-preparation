@@ -1,0 +1,25 @@
+
+https://www.youtube.com/watch?v=_1GSVoUVPXo: 
+
+1. How to copy file from S3 to EC2? 
+
+        aws s3 cp source-s3-path /dest/path/in/ec2          -   from s3 to ec2 
+        aws s3 cp /source/file/pat  /dest/s3/buckett        -   from ec2 to s3 
+
+        --recursive     -   used to recursively copy folders/file. 
+
+        aws s3 copy vs aws s3 sync: 
+
+                copy - just copy from source to destination.
+                sync - first check the destination and update from soure whatever not available. 
+
+2. What difference of NACL & Security Group: 
+3. Recordset 
+4. Elastic Bean Stalk (EBS) 
+5. What is SQS?
+6. What is SNS?
+7. What is Git Rebase? 
+8. What is Git revert? 
+9. 
+
+
