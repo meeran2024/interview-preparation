@@ -1,0 +1,9 @@
+-----------------------------------------------------------------------------------------------------------------
+TERRAFORM:
+-----------------------------------------------------------------------------------------------------------------
+
+1. With interpolation.
+    var.variable-name   - with variable name, just var. can be used.
+    ${var.variable-name}-other-text  - with other values, should use interpolation.
+    
+2. 
