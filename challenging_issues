@@ -2,8 +2,27 @@
 TERRAFORM:
 -----------------------------------------------------------------------------------------------------------------
 
-1. With interpolation.
+1. With interpolation:
     var.variable-name   - with variable name, just var. can be used.
     ${var.variable-name}-other-text  - with other values, should use interpolation.
     
-2. 
+2. Cycle Error: Error faced when creating the security group.
+    For 2 resources, refered each other source_security_group and both are dependant on each other. 
+    Solution is separate the security_group and security_group_rule.
+    
+3. Error when creating instances using for_each with splat expression:
+    Splat expression (*) can be used only with LIST. for-each support set or map.
+    To overcome this, use locals 
+    locals{
+    security_groups = { key1 = value2, key2=value2}
+    }
+    To refer by using, for_each=local,security_groups  and passing each.value to variable. 
+    
+4. State file is locked and cannot be used by other resource:
+    terraform force-unlock ID
+    terraform force-unlock --force ID
+    ID is found in error message. 
+    
+5.     
+    
+    
