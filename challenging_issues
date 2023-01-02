@@ -28,6 +28,12 @@ TERRAFORM:
         a. In aws_batch_compute_environment, append the name with timestamp.
         b. include life cycle, create_before_destroy = true
 
-6. 
+6. When passing ssh key from secret data source, it is failing? 
+        https://stackoverflow.com/questions/74940704/terraform-jsondecode-secrets-manager-ssh-key-containing-escape-characters-not-re
+        ssh_private_key = replace(jsondecode(data.aws_secretsmanager_secret_version.secrets_version[0].secret_string)["ssh_key"],"\\n","\n")
+        replace(string,find,replace)
+        
+7.         
+        
     
     
