@@ -23,6 +23,11 @@ TERRAFORM:
     terraform force-unlock --force ID
     ID is found in error message. 
     
-5.     
+5.  In AWS Batch, getting error "Can't destroy aws_batch_compute_environment associated with an aws_batch_job_queue: Cannot delete, found existing JobQueue relationship"   
+    To fix this, 
+        a. In aws_batch_compute_environment, append the name with timestamp.
+        b. include life cycle, create_before_destroy = true
+
+6. 
     
     
